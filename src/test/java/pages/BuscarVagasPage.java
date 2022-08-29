@@ -19,7 +19,7 @@ public class BuscarVagasPage {
 	}
 
 	public void validarVagas(String empresaPesquisada) {
-		metodos.evidencias("CT02 - Validar retorno das vagas");
+		metodos.evidencias("CT02 - Validar retorno das vagas ");
 		metodos.validarTexto(el.getTextVaga(), empresaPesquisada);
 
 	}
